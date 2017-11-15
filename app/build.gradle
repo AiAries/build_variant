@@ -1,6 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+    aaptOptions.cruncherEnabled false
+    aaptOptions.useNewCruncher false
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
     signingConfigs {
         release {
             keyAlias 'key0'
