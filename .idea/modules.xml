@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GradleBatchPackage.iml" filepath="$PROJECT_DIR$/GradleBatchPackage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GradleBatchPackage-master.iml" filepath="$PROJECT_DIR$/GradleBatchPackage-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/build_variant.iml" filepath="$PROJECT_DIR$/build_variant.iml" />
     </modules>
   </component>
