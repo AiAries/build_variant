@@ -21,7 +21,7 @@ android {
         applicationId "com.sjtu.charles.activity"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode rootProjet.ext.VERSION_CODE as int
+        versionCode rootProject.ext.VERSION_CODE as int
         versionName rootProject.ext.VERSION_NAME
         manifestPlaceholders = [UMENG_CHANNEL_VALUE: "default_channel"]
     }
