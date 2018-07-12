@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        System.out.println(BuildConfig.DEBUG);
         TextView tv_channel= (TextView) findViewById(R.id.main_tv_channel);
 //        tv_channel.setText(getApplicationMetaValue("UMENG_CHANNEL"));
         tv_channel.setText(getPackageName());
