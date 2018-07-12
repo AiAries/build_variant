@@ -39,11 +39,11 @@ android {
     productFlavors {
         demo {
             applicationId "com.sjtu.charles.activity.demo"
-            versionName "1.0-demo"
+            //versionName "1.0-demo"
         }
         full {
             applicationId "com.sjtu.charles.activity.full"
-            versionName "1.0-full"
+            //versionName "1.0-full"
         }
     }
     /*//添加渠道
