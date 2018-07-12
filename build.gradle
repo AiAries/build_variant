@@ -24,7 +24,7 @@ ext {
     VERSION_CODE = System.getenv("VERSION_CODE") ?: 1
     VERSION_NAME = System.getenv("VERSION_NAME") ?: "1.0"
     IS_JENKINS = System.getenv("IS_JENKINS") ?: false
-    BUILD_PATH_LOCAL = System.getenv("BUILD_PATH_LOCAL") ?: BUILD_PATH_LOCAL
+//    BUILD_PATH_LOCAL = System.getenv("BUILD_PATH_LOCAL") ?: BUILD_PATH_LOCAL
 }
 task clean(type: Delete) {
     delete rootProject.buildDir
